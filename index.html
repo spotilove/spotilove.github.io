@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>SpotiLove</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.3.0/nouislider.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="header">
+
+  <!--
+  <div class="window__actions">
+    <i class="ion-record red"></i>
+    <i class="ion-record yellow"></i>
+    <i class="ion-record green"></i>
+  </div>
+  -->
+  
+  <div class="page-flows">
+  
+    <span class="flow">
+      <i class="ion-chevron-left"></i>
+    </span>
+    
+    <span class="flow">
+      <i class="ion-chevron-right disabled"></i>
+    </span>
+    
+  </div>
+  
+  <div class="search">
+  
+    <input type="text" placeholder="Procurar" />
+    
+  </div>
+  
+  <div class="user">
+  
+    <div class="user__notifications">
+    
+      <i class="ion-android-notifications"></i>
+      
+    </div>
+    
+    <div class="user__inbox">
+    
+      <i class="ion-archive"></i>
+      
+    </div>
+    
+    <div class="user__info">
+    
+      <span class="user__info__img">
+      
+        <img src="https://uploads.metropoles.com/wp-content/uploads/2018/08/23115038/bandeira-lgbt-gay.png" alt="Profile Picture" class="img-responsive" />
+        
+      </span>
+      
+      <span class="user__info__name">
+      
+        <span class="first">Casal</span>
+        
+        <span class="last">ViBe</span>
+        
+      </span>
+      
+    </div>
+    
+    <div class="user__actions">
+    
+      <div class="dropdown">
+        <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <i class="ion-chevron-down"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+          <li><a href="https://drive.google.com/file/d/15KWBxka11TcH-UExg3vj7iIGhUY5l6HN/view?usp=sharing" target="_blank">Sessão Privada</a></li>
+          <li onclick="alert('ATENÇAO! É PROIBIDO SAIR DO NOSSO AMOR LINDO.');"><a href="#">Sair</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+</section>
+
+<section class="content">
+
+  <div class="content__left">
+  
+    <section class="navigation">
+
+        <!-- Main -->
+        <div class="navigation__list">
+
+          <div class="navigation__list__header" 
+               role="button" 
+               data-toggle="collapse" 
+               href="#main" 
+               aria-expanded="true" 
+               aria-controls="main">
+            Principal
+          </div>
+          
+          <div class="collapse in" id="main">
+          
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-browsers"></i>
+              <span>Navegar</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-person-stalker"></i>
+              <span>Atividade</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-radio-waves"></i>
+              <span>Rádio</span>
+            </a>
+            
+          </div>
+
+        </div>
+        <!-- / -->
+
+        <!-- Your Music -->
+        <div class="navigation__list">
+
+          <div class="navigation__list__header" 
+               role="button" 
+               data-toggle="collapse" 
+               href="#yourMusic" 
+               aria-expanded="true" 
+               aria-controls="yourMusic">
+            Sua música
+          </div>
+          
+          <div class="collapse in" id="yourMusic">
+          
+            <a href="#" class="navigation__list__item">
+              <i class="ion-headphone"></i>
+              <span>Músicas</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-musical-notes"></i>
+              <span>Álbuns</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-person"></i>
+              <span>Artistas</span>
+            </a>
+            
+          </div>
+
+        </div>
+        <!-- / -->
+
+        <!-- Playlists -->
+        <div class="navigation__list">
+
+          <div class="navigation__list__header" 
+               role="button" 
+               data-toggle="collapse" 
+               href="#playlists" 
+               aria-expanded="true" 
+               aria-controls="playlists">
+            Playlists
+          </div>
+          
+          <div class="collapse in" id="playlists">
+          
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-musical-notes"></i>
+              <span>Funk Hits</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-musical-notes"></i>
+              <span>Clássicos do Pop</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-musical-notes"></i>
+              <span>Love $ongs</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-musical-notes"></i>
+              <span>Hipster</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-musical-notes"></i>
+              <span>Para você</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-musical-notes"></i>
+              <span>Top 50 Brasil</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-musical-notes"></i>
+              <span>Pride</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-musical-notes"></i>
+              <span>LGBTQI+</span>
+            </a>
+
+            <a href="#" class="navigation__list__item">
+              <i class="ion-ios-musical-notes"></i>
+              <span>This is Lady Gaga</span>
+            </a>
+            
+          </div>
+
+        </div>
+        <!-- / -->
+
+      </section>
+
+    <section class="playing">
+
+      <div class="playing__art">
+
+        <img src="https://gazetadocerrado.com.br/wp-content/uploads/2020/03/anavitoria.jpg" alt="Album Art" />
+
+      </div>
+
+      <div class="playing__song">
+
+        <a class="playing__song__name">A gente junto</a>
+
+        <a class="playing__song__artist">Anavitória</a>
+
+      </div>
+
+      <div class="playing__add">
+
+        <i class="ion-checkmark"></i>
+
+      </div>
+
+    </section>
+    
+  </div>
+  
+  <div class="content__middle">
+  
+    <div class="artist is-verified">
+    
+      <div class="artist__header">
+      
+        <div class="artist__info">
+        
+          <div class="profile__img">
+          
+            <img src="https://i.imgur.com/WTxG16s.png" alt="G-Eazy" />
+            
+          </div>
+          
+          <div class="artist__info__meta">
+          
+            <div class="artist__info__type">Cantora</div>
+            
+            <div class="artist__info__name">Seractress</div>
+            
+            <div class="artist__info__actions">
+            
+              <button class="button-dark">
+                <i class="ion-ios-play"></i>
+                Reproduzir
+              </button>
+              
+              <button class="button-light">Seguir</button>
+              
+              <button class="button-light more">
+                <i class="ion-ios-more"></i>
+              </button>
+              
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        
+        <div class="artist__listeners">
+        
+          <div class="artist__listeners__count">15,662,810</div>
+          
+          <div class="artist__listeners__label">Ouvintes mensais</div>
+          
+        </div>
+        
+        <div class="artist__navigation">
+        
+          <ul class="nav nav-tabs" role="tablist">
+            
+            <li role="presentation" class="active">
+              <a href="#artist-overview" aria-controls="artist-overview" role="tab" data-toggle="tab">Sobre</a>
+            </li>
+            
+            <li role="presentation">
+              <a href="#related-artists" aria-controls="related-artists" role="tab" data-toggle="tab">Relacionados</a>
+            </li>
+            
+            <!--<li role="presentation">
+              <a href="#artist-about" aria-controls="artist-about" role="tab" data-toggle="tab">About</a>
+            </li>-->
+            
+          </ul>
+          
+        </div>
+        
+      </div>
+      
+      <div class="artist__content">
+      
+        <div class="tab-content">
+      
+          <!-- Overview -->
+          <div role="tabpanel" class="tab-pane active" id="artist-overview">
+            
+            <div class="overview">
+            
+              <div class="overview__artist">
+            
+                <!-- Latest Release-->
+                <div class="section-title">Último Lançamento</div>
+
+                <div class="latest-release">
+
+                  <div class="latest-release__art">
+
+                    <img src="https://i.imgur.com/gNuCIqo.png" alt="When It's Dark Out" />
+
+                  </div>
+
+                  <div class="latest-release__song">
+
+                    <div class="latest-release__song__title">
+                      <a href="https://www.youtube.com/watch?v=1SoXIzBRIKY" style="color:white" target="_blank">Reparo</a> </div>
+
+                    <div class="latest-release__song__date">
+
+                      <span class="day">12</span>
+
+                      <span class="month">Jun</span>
+
+                      <span class="year">2020</span>
+
+                    </div>
+
+                  </div>
+
+                </div>
+                <!-- / -->
+
+                <!-- Popular-->
+                <div class="section-title">Popular</div>
+
+                <div class="tracks">
+
+                  <div class="track">
+
+                    <div class="track__art">
+
+                      <img src="https://i.imgur.com/cGZnC8I.png" alt="When It's Dark Out" />
+
+                    </div>
+
+                    <div class="track__number">1</div>
+
+                    <div class="track__added">
+
+                      <i class="ion-checkmark-round added"></i>
+
+                    </div>
+
+                    <div class="track__title">
+                      <a href="https://www.youtube.com/watch?v=Ev6QLEthwvA&t=24s" target="_blank" style="color:white">
+                        Deusa</a> 
+                    </div>
+
+                    <div class="track__explicit">
+
+                      <span class="label">Explicit</span>
+
+                    </div>
+
+                    <div class="track__plays">147,544,165</div>
+
+                  </div>
+
+                  <div class="track">
+
+                    <div class="track__art">
+
+                      <img src="https://i.imgur.com/jsAXSsK.png" alt="These Things Happen" />
+
+                    </div>
+
+                    <div class="track__number">2</div>
+
+                    <div class="track__added">
+
+                      <i class="ion-plus not-added"></i>
+
+                    </div>
+
+                    <div class="track__title">
+                      <a href="https://www.youtube.com/watch?v=J9bF4Rcp0Ck" target="_blank" style="color:white">Me Leia</a>
+                    </div>
+
+                    <div class="track__explicit">
+
+                      <span class="label">Explicit</span>
+
+                    </div>
+
+                    <div class="track__plays">74,568,782</div>
+
+                  </div>
+
+
+                  <div class="track">
+
+                    <div class="track__art">
+
+                      <img src="https://i.imgur.com/vZlKfRS.png" alt="When It's Dark Out" />
+
+                    </div>
+
+                    <div class="track__number">3</div>
+
+                    <div class="track__added">
+
+                      <i class="ion-plus not-added"></i>
+
+                    </div>
+
+                    <div class="track__title">
+                      <a href="https://www.youtube.com/watch?v=PfVxFUPx8x8" target="_blank" style="color:white">Meu Superpoder</a>
+                    </div>
+
+                    <div class="track__explicit">
+
+                      <span class="label"></span>
+
+                    </div>
+
+                    <div class="track__plays">12,234,881</div>
+
+                  </div>
+
+                </div>
+
+                <!-- / -->
+              
+              </div>
+            
+              <div class="overview__related">
+
+                <div class="section-title">Artistas Relacionados</div>
+                
+                <div class="related-artists">
+                
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://gazetadocerrado.com.br/wp-content/uploads/2020/03/anavitoria.jpg" alt="Hoodie Allen" />
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">AnaVitória</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/3/6/8/1/3681c5e7189dda021941964faf1ab0c9.jpg" alt="Mike Stud" />
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Tiago Iorc</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://www.vagalume.com.br/christina-aguilera/images/christina-aguilera.jpg" alt="Drake" />
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Christina Aguilera</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://correio-cdn1.cworks.cloud/fileadmin/_processed_/0/0/csm_Ana_can_ba5755e6bc.jpg" alt="J. Cole" />
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Ana Cañas</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://i.ytimg.com/vi/ythbLbMnlAg/maxresdefault.jpg" alt="Big Sean" />
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Jade Baraldo</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://upload.wikimedia.org/wikipedia/pt/8/84/Capa_de_Ef%C3%AAmera.jpg" alt="Wiz Khalifa" />
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Tulipa Ruiz</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://soup.onerpm.com/web/user/images/1/1f/1fAK47IRAujRI9f8uzlC.400.jpg" alt="Yonas" />
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Pedro Salomão</span>
+                    
+                  </a>
+                  
+                </div>
+
+              </div>
+
+              <div class="overview__albums">
+              
+                <div class="overview__albums__head">
+                
+                  <span class="section-title">Álbuns</span>
+                  
+                  <span class="view-type">
+                  
+                    <i class="fa fa-list list active"></i>
+                    
+                    <i class="fa fa-th-large card"></i>
+                    
+                  </span>
+                
+                </div>
+                
+                <div class="album">
+                
+                  <div class="album__info">
+                  
+                    <div class="album__info__art">
+                    
+                      <img src="https://i.imgur.com/I4PAmmQ.png" alt="When It's Dark Out" />
+                      
+                    </div>
+                    
+                    <div class="album__info__meta">
+                    
+                      <div class="album__year">2020</div>
+                      
+                      <div class="album__name">Meus Covers</div>
+                      
+                      <div class="album__actions">
+                      
+                        <button class="button-light save">Salvar</button>
+                        
+                        <button class="button-light more">
+                          <i class="ion-ios-more"></i>
+                        </button>
+                        
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
+                  
+                  <div class="album__tracks">
+                  
+                    <div class="tracks">
+                      
+                      <div class="tracks__heading">
+                      
+                        <div class="tracks__heading__number">#</div>
+                        
+                        <div class="tracks__heading__title">Música</div>
+                        
+                        <div class="tracks__heading__length">
+                        
+                          <i class="ion-ios-stopwatch-outline"></i>
+                          
+                        </div>
+                        
+                        <div class="tracks__heading__popularity">
+                        
+                          <i class="ion-thumbsup"></i>
+                          
+                        </div>
+                        
+                      </div>
+
+                      <div class="track">
+
+                        <div class="track__number">1</div>
+
+                        <div class="track__added">
+
+                          <i class="ion-checkmark-round added"></i>
+
+                        </div>
+
+                        <div class="track__title featured">
+                        
+                          <span class="title">
+                            <a href="https://www.youtube.com/watch?v=-qHQZ9k8bb4" target="_blank" style="color:white">There is no greater love</a>
+                          </span>
+                          <span class="feature">Amy Winehouse</span>
+                          
+                        </div>
+
+                        <div class="track__explicit">
+
+                          <span class="label"></span>
+
+                        </div>
+                        
+                        <div class="track__length">4:11</div>
+                        
+                        <div class="track__popularity">
+                        
+                          <i class="ion-arrow-graph-up-right"></i>
+                          
+                        </div>
+
+                      </div>
+
+                      <div class="track">
+
+                        <div class="track__number">2</div>
+
+                        <div class="track__added">
+
+                          <i class="ion-checkmark-round added"></i>
+
+                        </div>
+
+                        <div class="track__title featured">
+                        
+                          <span class="title">
+                            <a href="https://www.youtube.com/watch?v=jgqwcXfJp-c" target="_blank" style="color:white">Só sei dançar com você</a> </span>
+                          <span class="feature">Tulipa Ruiz</span>
+                          
+                        </div>
+
+                        <div class="track__explicit">
+
+
+                        </div>
+                        
+                        <div class="track__length">3:08</div>
+                        
+                        <div class="track__popularity">
+                        
+                          <i class="ion-arrow-graph-up-right"></i>
+                          
+                        </div>
+
+                      </div>
+                      
+                      <div class="track">
+
+                        <div class="track__number">3</div>
+
+                        <div class="track__added">
+
+                          <i class="ion-checkmark-round added"></i>
+
+                        </div>
+
+                        <div class="track__title featured">
+                        
+                          <span class="title">
+                            <a href="https://www.youtube.com/watch?v=xpDDZSIQ5UE" target="_blank" style="color:white">Flutua</a>
+                          </span>
+                          <span class="feature">Liniker</span>
+                          
+                        </div>
+
+                        <div class="track__explicit">
+
+                          <span class="label">Explicit</span>
+
+                        </div>
+                        
+                        <div class="track__length">4:11</div>
+                        
+                        <div class="track__popularity">
+                        
+                          <i class="ion-arrow-graph-up-right"></i>
+                          
+                        </div>
+
+                      </div>
+                      
+                      <div class="track">
+
+                        <div class="track__number">4</div>
+
+                        <div class="track__added">
+
+                          <i class="ion-checkmark-round added"></i>
+
+                        </div>
+
+                        <div class="track__title featured">
+                        
+                          <span class="title">
+                            <a href="https://www.youtube.com/watch?v=Z2HC2A-ixCg" target="_blank" style="color:white">My Strange Addiction</a>
+                          </span>
+                          <span class="feature">Billie Eilish</span>
+                          
+                        </div>
+
+                        <div class="track__explicit">
+
+                          <span class="label">Explicit</span>
+
+                        </div>
+                        
+                        <div class="track__length">3:20</div>
+                        
+                        <div class="track__popularity">
+                        
+                          <i class="ion-arrow-graph-down-right"></i>
+                          
+                        </div>
+
+                      </div>
+                      
+                      <div class="track">
+
+                        <div class="track__number">5</div>
+
+                        <div class="track__added">
+
+                          <i class="ion-checkmark-round added"></i>
+
+                        </div>
+
+                        <div class="track__title featured">
+                        
+                          <span class="title">
+                            <a href="https://www.youtube.com/watch?v=nktpXEeOyrs" target="_blank" style="color:white">Eu te quero</a>
+                          </span>
+                          <span class="feature">Manu Gavassi</span>
+                          
+                        </div>
+
+                        <div class="track__explicit">
+
+                          <span class="label"></span>
+
+                        </div>
+                        
+                        <div class="track__length">4:33</div>
+                        
+                        <div class="track__popularity">
+                        
+                          <i class="ion-arrow-graph-up-right"></i>
+                          
+                        </div>
+
+                      </div>
+
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          
+          </div>
+          <!-- / -->
+
+          <!-- Related Artists -->
+          <div role="tabpanel" class="tab-pane" id="related-artists">
+          
+            <div class="media-cards">
+            
+              <div class="media-card">
+              
+                <div class="media-card__image" style="background-image: url(https://gazetadocerrado.com.br/wp-content/uploads/2020/03/anavitoria.jpg);">
+                
+                  <i class="ion-ios-play"></i>
+                  
+                </div>
+                
+                <a class="media-card__footer">AnaVitória</a>
+                
+              </div>
+              
+              <div class="media-card">
+              
+                <div class="media-card__image" style="background-image: url(https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/3/6/8/1/3681c5e7189dda021941964faf1ab0c9.jpg);">
+                
+                  <i class="ion-ios-play"></i>
+                  
+                </div>
+                
+                <a class="media-card__footer">Tiago Iorc</a>
+                
+              </div>
+              
+              <div class="media-card">
+              
+                <div class="media-card__image" style="background-image: url(https://www.vagalume.com.br/christina-aguilera/images/christina-aguilera.jpg);">
+                
+                  <i class="ion-ios-play"></i>
+                  
+                </div>
+                
+                <a class="media-card__footer">Christina Aguilera</a>
+                
+              </div>
+              
+              <div class="media-card">
+              
+                <div class="media-card__image" style="background-image: url(https://correio-cdn1.cworks.cloud/fileadmin/_processed_/0/0/csm_Ana_can_ba5755e6bc.jpg);">
+                
+                  <i class="ion-ios-play"></i>
+                  
+                </div>
+                
+                <a class="media-card__footer">Ana Cañas</a>
+                
+              </div>
+              
+              <div class="media-card">
+              
+                <div class="media-card__image" style="background-image: url(https://i.ytimg.com/vi/ythbLbMnlAg/maxresdefault.jpg);">
+                
+                  <i class="ion-ios-play"></i>
+                  
+                </div>
+                
+                <a class="media-card__footer">Jade Baraldo</a>
+                
+              </div>
+              
+              <div class="media-card">
+              
+                <div class="media-card__image" style="background-image: url(https://upload.wikimedia.org/wikipedia/pt/8/84/Capa_de_Ef%C3%AAmera.jpg);">
+                
+                  <i class="ion-ios-play"></i>
+                  
+                </div>
+                
+                <a class="media-card__footer">Tulipa Ruiz</a>
+                
+              </div>
+              
+              <div class="media-card">
+              
+                <div class="media-card__image" style="background-image: url(https://soup.onerpm.com/web/user/images/1/1f/1fAK47IRAujRI9f8uzlC.400.jpg);">
+                
+                  <i class="ion-ios-play"></i>
+                  
+                </div>
+                
+                <a class="media-card__footer">Pedro salomão</a>
+                
+              </div>
+              
+              <div class="media-card">
+              
+                <div class="media-card__image" style="background-image: url(https://2.bp.blogspot.com/-zz_65fKE8Ww/XNSp_5SNEuI/AAAAAAAAExk/yh_Hg6nGCiQjyzfR8L0e1JpePnm6sjpeACLcBGAs/s1600/20190509_192601.jpg);">
+                
+                  <i class="ion-ios-play"></i>
+                  
+                </div>
+                
+                <a class="media-card__footer">Liniker</a>
+                
+              </div>
+              
+            </div>
+          
+          </div>
+          <!-- / -->
+
+          <!-- About // Coming Soon-->
+            <!--<div role="tabpanel" class="tab-pane" id="artist-about">About</div>-->
+          <!-- / -->
+
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  <div class="content__right">
+  
+    <div class="social">
+    
+      <div class="friends">
+      
+        <a href="#" class="friend">
+        
+          <i class="ion-android-person"></i>
+          
+          Cefas Rodrigues
+          
+        </a>
+        
+        <a href="#" class="friend">
+        
+          <i class="ion-android-person"></i>
+          
+          Yasmin Aguiar
+          
+        </a>
+        
+        <a href="#" class="friend">
+        
+          <i class="ion-android-person"></i>
+          
+          Ana Quitéria
+          
+        </a>
+        
+        <a href="#" class="friend">
+        
+          <i class="ion-android-person"></i>
+          
+          Vitória Machado
+          
+        </a>
+        
+        <a href="#" class="friend">
+        
+          <i class="ion-android-person"></i>
+          
+          Matheus Queiroz
+          
+        </a>
+        
+        <a href="#" class="friend">
+        
+          <i class="ion-android-person"></i>
+          
+          Ricardo Duarte
+          
+        </a>
+        
+      </div>
+      
+      <button class="button-light">Adicionar Amigos</button>
+      
+    </div>
+    
+  </div>
+  
+</section>
+
+<section class="current-track">
+
+  <div class="current-track__actions">
+  
+    <a class="ion-ios-skipbackward"></a>
+    
+    <a class="ion-ios-play play"></a>
+    
+    <a class="ion-ios-skipforward"></a>
+    
+  </div>
+  
+  <div class="current-track__progress">
+  
+    <div class="current-track__progress__start">0:01</div>
+    
+    <div class="current-track__progress__bar">
+      
+      <div id="song-progress"></div>
+      
+    </div>
+    
+    <div class="current-track__progress__finish">3:07</div>
+    
+  </div>
+  
+  <div class="current-track__options">
+  
+    <a href="#" class="lyrics">Lyrics</a>
+    
+    <span class="controls">
+    
+      <a href="#" class="control">
+        <i class="ion-navicon"></i>
+      </a>
+      
+      <a href="#" class="control">
+        <i class="ion-shuffle"></i>
+      </a>
+      
+      <a href="#" class="control">
+        <i class="fa fa-refresh"></i>
+      </a>
+      
+      <a href="#" class="control devices">
+        <i class="ion-iphone"></i>
+        <span>Devices Available</span>
+      </a>
+      
+      <a href="#" class="control volume">
+        
+        <i class="ion-volume-high"></i>
+      
+        <div id="song-volume"></div>
+        
+      </a>
+      
+    </span>
+    
+  </div>
+  
+</section>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.3.0/nouislider.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
